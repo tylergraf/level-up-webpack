@@ -1,0 +1,33 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/lazy-imports/lazy-imports-mixin.html">
+
+<dom-module id="my-app">
+  <link rel="lazy-import" group="profile" href="./my-profile.html">
+
+  <template>
+    <style>
+      paper-button {
+        background-color: #1E88E5;
+        color: #fff;
+      }
+    </style>
+    <h1>I'm the my-app component</h1>
+    
+    <paper-button on-click="loadIt">Click Me</paper-button>
+    <my-profile></my-profile>
+
+  </template>
+
+  <script>
+    class MyApp extends Polymer.LazyImportsMixin(Polymer.Element) {
+      static get is() { return 'my-app'; }
+
+      loadIt(e){
+        this.importLazyGroup('profile').then();
+      }
+    }
+
+    window.customElements.define('my-app', MyApp);
+  </script>
+</dom-module>

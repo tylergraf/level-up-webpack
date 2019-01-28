@@ -1,0 +1,12 @@
+.person {
+  display: flex;
+  align-items: center;
+}
+.photo {
+  height: 80px;
+  width: 80px;
+}
+.name {
+  margin-left: 10px;
+  font-size: 30px;
+}

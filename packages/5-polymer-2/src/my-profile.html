@@ -1,0 +1,33 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+
+<dom-module id="my-profile">
+
+  <template>
+    <style>
+      .person {
+        display: flex;
+        align-items: center;
+      }
+      .photo {
+        height: 80px;
+        width: 80px;
+      }
+      .name {
+        margin-left: 10px;
+        font-size: 30px;
+      }
+    </style>
+    <div class="person">
+      <img src="./tyler.jpg" class="photo">
+      <p class="name">Tyler Graf</p>
+    </div>
+  </template>
+
+  <script>
+    class MyApp extends Polymer.Element {
+      static get is() { return 'my-profile'; }
+    }
+
+    window.customElements.define('my-profile', MyApp);
+  </script>
+</dom-module>

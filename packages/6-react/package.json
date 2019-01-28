@@ -1,0 +1,20 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "html example showing html-loader and url-loader",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"webpack -w\" \"serve\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.4",
+    "concurrently": "^4.1.0",
+    "serve": "^10.1.1",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "polymer-webpack-loader": "^2.0.3"
+  }
+}

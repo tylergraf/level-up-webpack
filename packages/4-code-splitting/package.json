@@ -1,0 +1,22 @@
+{
+  "name": "code-splitting",
+  "version": "1.0.0",
+  "description": "html example showing html-loader and url-loader",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"webpack -w\" \"serve\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "serve": "^10.1.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1"
+  }
+}

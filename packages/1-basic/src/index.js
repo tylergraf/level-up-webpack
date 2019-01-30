@@ -1,4 +1,5 @@
-// import add
-// import subtract
+import add from './add.js';
+import subtract from './subtract.js';
 
-// use add and subtract
+console.log(add(2,3));
+console.log(subtract(2,3));

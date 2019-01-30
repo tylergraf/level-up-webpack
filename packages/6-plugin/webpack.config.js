@@ -8,6 +8,6 @@ module.exports = {
     filename: 'bundle.js'
   },
   plugins: [
-    // new UglifyJsPlugin()
+    new UglifyJsPlugin()
   ]
 }

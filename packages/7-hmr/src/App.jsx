@@ -9,6 +9,7 @@ class App extends Component {
         <img src={tyler} alt="Tyler"/>
         <div>
           <h1>Tyler Graf</h1>
+          <span>A special guy.</span>
         </div>
       </div>
     );

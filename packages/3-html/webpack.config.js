@@ -13,19 +13,19 @@ module.exports = {
           loader: 'html-loader'
         }
       },
-      {
-        test: /\.(png|jpg|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name(file) {
-                return '../[path][name].[ext]';
-              }
-            },
-          }
-        ]
-      },
+      // {
+      //   test: /\.(png|jpg|gif)$/i,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name(file) {
+      //           return '../[path][name].[ext]';
+      //         }
+      //       },
+      //     }
+      //   ]
+      // },
       {
         test: /\.css$/,
         use: [

@@ -6,8 +6,5 @@ el.innerHTML = personHTML;
 
 document.body.appendChild(el);
 
-el.addEventListener('click', e => {
-  import('./add.js').then(({default:add})=>{
-    console.log(add(2,2));
-  });
-});
+// create onclick event for else
+// import add and use it

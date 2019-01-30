@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "serve",
-    "webpack": "webpack && serve"
+    "webpack": "concurrently \"webpack -w\" \"serve\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^4.1.0",
     "serve": "^10.1.1",
     "webpack": "^4.28.1",
     "webpack-cli": "^3.2.1"

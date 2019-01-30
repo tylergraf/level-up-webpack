@@ -1,4 +1,5 @@
-import { sortBy } from 'lodash'; // ES Module Syntax
+// install lodash
+// import lodash's sortby function
 
 const users = [
   { 'user': 'fred',   'age': 48 },
@@ -7,4 +8,4 @@ const users = [
   { 'user': 'barney', 'age': 34 }
 ];
 
-console.log(sortBy(users, ['user', 'age']));
+// sort the array above by user, then name

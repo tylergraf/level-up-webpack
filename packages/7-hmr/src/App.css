@@ -1,0 +1,12 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App img {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}

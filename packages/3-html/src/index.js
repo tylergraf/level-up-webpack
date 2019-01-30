@@ -1,7 +1,7 @@
-// import person html
-// import style css
+import personHTML from './person.html';  //personHTML is just a string of html
+import './style.css'; //css gets appended to the <head>
 
-// create new div element
-// set div's innerHTML to person html
+let el = document.createElement('div');
+el.innerHTML = personHTML;
 
-// append new element to body
+document.body.appendChild(el);
